@@ -1,16 +1,18 @@
 /*Estilização da página Home*/
 .topo {
-    color: aliceblue;
-    background-color: green;
+    color: white;
+    background-color: none;
     text-align: center;
+    margin: 20px;
 }
 
 .container {
+    color: white;
     display: flex;
     flex-flow: row ;
     justify-content: center;
     align-items: center;
-    }
+}
 #menu li{
   display: inline;
   padding: 10px;
@@ -18,7 +20,7 @@
 
 #menu li a{
     text-decoration: none;
-    color: #000;
+    color: white;
     font-size: 20px;
 }
 
@@ -27,7 +29,10 @@
 }
 
 .p-txt {
-    padding: 30px;
+    padding: 4px;
+    background-color:none;
+    color: white;
+    border: inset;
 }
 
 .br-50{
@@ -45,8 +50,11 @@
     padding: 15px;
 }
 
+
 /*Estilização da página Contato*/
 
 .ml-50{
-    margin-left: 50px;
+    border: 40px black;
+    color: white;
+    margin-left: 400px;
 }
